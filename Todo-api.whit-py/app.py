@@ -55,7 +55,7 @@ def add_todos():
 
 def delete_todo(position):
     todo_list.pop(int(position))
-    return jsonify({"message":"Tarea eliminada exitosamente"}), 200
+    return jsonify({"message":"Tarea eliminada exitosamente."}), 200
     
     
         
